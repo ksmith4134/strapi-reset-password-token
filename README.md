@@ -9,6 +9,7 @@ This API was designed to be used when a user knows their credentials, but you, t
 ### Important
 - place this repo's root folder in your Strapi src/api folder
 - the final destination will look like: src/api/get-token
+- remeber to **update your Roles in the Users & Permissions Plugin**
 
 ### POST request
 
