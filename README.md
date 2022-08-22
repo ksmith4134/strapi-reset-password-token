@@ -3,6 +3,9 @@
 - No email provider required but this token is often used in the url of a reset-password email link.
 - Returns sanitized user data
 
+### Note
+This API was designed to be used when a user knows their credentials, but you, the "admin", are forcing them into a password-reset flow.
+
 ### Important
 - place this repo's root folder in your Strapi src/api folder
 - the final destination will look like: src/api/get-token
